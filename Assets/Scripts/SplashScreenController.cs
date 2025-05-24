@@ -18,7 +18,7 @@ public class SplashScreenController : MonoBehaviour
         circleAnimator.Play("CircleExpand.anim");
 
         // Optional: fade logo out while circle expands
-        float duration = 1.5f;
+        float duration = 0.4f;
         float time = 0f;
         while (time < duration)
         {
