@@ -6,7 +6,7 @@ public class SplashScreenController : MonoBehaviour
 {
     // public CanvasGroup logo;
     public Animator circleAnimator;
-    public string nextSceneName = "2048";
+    public string nextSceneName = "MenuScene";
     void Start()
     {
         StartCoroutine(PlaySplash());
